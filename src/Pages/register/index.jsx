@@ -11,7 +11,7 @@ import{
     Typography,
 } from "@mui/material";
 import React from "react";
-import { materialCommonStyles } from "../../utils/materialcommonstyles";
+import { materialCommonStyles } from "../../utils/materialcommonstyles.jsx";
 import createAccountStyle from "./style";
 
 const Register = () =>{
