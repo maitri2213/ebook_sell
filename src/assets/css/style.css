@@ -1,0 +1,44 @@
+.cancel-popup .MuiDiallogContent-root{
+    padding: 10px 15px 0;
+}
+.cancel-popup .MuiDiallogContent-root p{
+    color: #000;
+}
+.cancel-popup .btn{
+    height: 30px !important;
+    line-height: 30px !important;
+    border-radius: 4px;
+    font-size: 14px !important;
+    min-width: 100px;
+}
+.pagination-wrapper{
+    margin-top: 40px;
+}
+.pagination-wrapper .MuiPagination-ul{
+    justify-content: center;
+}
+.pagination-wrapper .MuiPagination-ul .MupaginationItem-page .Mui-select{
+    background-color: #f24d54;
+    color: #fff;
+}
+.pagination-wrapper .MuiPagination-ul .MupaginationItem-page:hover{
+    background-color: rgba(241,77,84,0.7);
+    color: #fff;
+}
+.search-overlay{
+    display: none;
+}
+.search-results-open .search-overlay{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+@media(max-width:1199px){
+    .container{
+        padding: 0 25px;
+    }
+}
