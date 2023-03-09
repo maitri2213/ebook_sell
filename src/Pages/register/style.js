@@ -1,5 +1,5 @@
 import { makeStyles } from "@mui/material";
-import { colors } from "../../constant/constant";
+import { colors } from "./constant/constant";
 
 
  const createAccountStyle = makeStyles((theme) => ({
